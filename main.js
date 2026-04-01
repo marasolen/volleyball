@@ -43,8 +43,8 @@ const setupVisualization = () => {
         .attr("fill", "white");
 
     const colourMap = {
-        "league": "#7D1D3F",
-        "practice": "#FE6D73",
+        "league": "#FE6D73",
+        "practice": "#bd9de8",
         "sub": "#F18F01",
         "dropin": "#4CB944"
     };
@@ -99,7 +99,7 @@ const setupVisualization = () => {
         .attr("dominant-baseline", "middle")
         .attr("text-multiplier", 1.3)
         .attr("fill", "white")
-        .text("-   set point differential   +");
+        .text("-   session set point differential   +");
 
     svg.append("text")
         .attr("transform", `translate(${margin.left / 2}, ${margin.top + height / 2}) rotate(-90)`)
